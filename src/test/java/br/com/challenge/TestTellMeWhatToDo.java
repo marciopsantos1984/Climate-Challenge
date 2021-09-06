@@ -18,17 +18,16 @@ public class TestTellMeWhatToDo {
 	
 	@Test
 	public void testActionNoIrrigation() throws ParserConfigurationException, SAXException, IOException, ValidateException {
-		Assert.assertEquals(WhatToDo.TellMeWhatToDo("Fine", 90), "No Irrigation Needed");
-	}
+		Assert.assertEquals("No Irrigation Needed", WhatToDo.TellMeWhatToDo("Fine", 90));	}
 	
 	@Test
 	public void testActionApplyIrrigation() throws ParserConfigurationException, SAXException, IOException, ValidateException {
-		Assert.assertEquals(WhatToDo.TellMeWhatToDo("Medium", 85), "Irrigation to Be Applied");
+		Assert.assertEquals("Irrigation to Be Applied", WhatToDo.TellMeWhatToDo("Medium", 85));
 	}
 	
 	@Test
 	public void testActionDangerousl() throws ParserConfigurationException, SAXException, IOException, ValidateException {
-		Assert.assertEquals(WhatToDo.TellMeWhatToDo("Coarse", 75), "Dangerousl Low Soil Moisture");
+		Assert.assertEquals("Dangerousl Low Soil Moisture", WhatToDo.TellMeWhatToDo("Coarse", 75));
 	}
 	
 	@Test
