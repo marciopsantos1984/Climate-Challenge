@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test_Case>
+    <description>Test Ok - When soil Fine with waterlelve 85</description>
+    <soil>Fine</soil>
+    <value>85</value>
+    <expected>No Irrigation Needed</expected>
+</test_Case>
