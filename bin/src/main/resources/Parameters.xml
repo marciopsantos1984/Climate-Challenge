@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<parameter>
+    
+        <action>No Irrigation Needed</action>
+        <action>Irrigation to Be Applied</action>
+        <action>Dangerousl Low Soil Moisture</action>
+    
+    <soil>
+        <name>Fine</name>
+        <leveis>
+            <level>80</level>
+            <level>60</level>
+            <level>0</level>
+        </leveis>
+    </soil>
+    <soil>
+        <name>Medium</name>
+        <leveis>
+            <level>88</level>
+            <level>70</level>
+            <level>0</level>
+        </leveis>
+    </soil>
+    <soil>
+        <name>Coarse</name>
+        <leveis>
+            <level>90</level>
+            <level>80</level>
+            <level>0</level>
+        </leveis>
+    </soil>   
+    <soil>
+        <name>Clay</name>
+        <leveis>
+            <level>80</level>
+            <level>60</level>
+            <level>0</level>
+        </leveis>
+    </soil>
+    <soil>
+        <name>Loamy</name>
+        <leveis>
+            <level>88</level>
+            <level>70</level>
+            <level>0</level>
+        </leveis>
+    </soil>
+    <soil>
+        <name>Sandy</name>
+        <leveis>
+            <level>90</level>
+            <level>80</level>
+            <level>0</level>
+        </leveis>
+    </soil>       
+</parameter>
